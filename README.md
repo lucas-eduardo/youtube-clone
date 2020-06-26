@@ -1,44 +1,73 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img alt="YouTube Clone" title="YouTube Clone" src=".github/logo.png" width="250" />
+</h1>
 
-## Available Scripts
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lucas-eduardo/youtube-clone?color=%2304D361">
 
-In the project directory, you can run:
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lucas-eduardo/youtube-clone">
 
-### `yarn start`
+  <a href="https://www.linkedin.com/in/lucasdeveloperti/">
+    <img alt="Made by Lucas Eduardo" src="https://img.shields.io/badge/made%20by-Lucas Eduardo-%2304D361">
+  </a>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a href="https://github.com/lucas-eduardo/youtube-clone/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucas-eduardo/youtube-clone">
+  </a>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 
-### `yarn test`
+   <a href="https://github.com/lucas-eduardo/youtube-clone/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/lucas-eduardo/youtube-clone?style=social">
+  </a>
+</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Sobre o clone
 
-### `yarn build`
+O clone da aplicação do youtube foi desenvolvimento apenas para fins de estudos e de desafio próprio.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 🎨 Clone final
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src=".github/printScreen.png" width="500" />
 
-### `yarn eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🛠 Tecnologia
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Foi utilizado o [ReactJS][reactjs] utilizando o CRA [TypeScript][typescript].
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Pré-requisitos
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js][nodejs] e [Yarn][yarn].
+Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
 
-## Learn More
+### 🧭 Rodando a aplicação
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone este repositório
+$ git clone https://github.com/lucas-eduardo/youtube-clone
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd youtube-clone
+
+# Instale as dependências
+$ yarn install
+
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+```
+
+[nodejs]: https://nodejs.org/
+[typescript]: https://www.typescriptlang.org/
+[expo]: https://expo.io/
+[reactjs]: https://reactjs.org
+[rn]: https://facebook.github.io/react-native/
+[yarn]: https://yarnpkg.com/
+[vscode]: https://code.visualstudio.com/
+[license]: https://opensource.org/licenses/MIT
+[rc]: https://rocketseat.com.br
