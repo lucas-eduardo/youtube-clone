@@ -30,7 +30,9 @@ O clone da aplicação do youtube foi desenvolvimento apenas para fins de estudo
 
 ## 🎨 Clone final
 
-<img src=".github/printScreen.png" width="500" />
+<div align="center">
+  <img src=".github/printScreen.png" width="500" />
+</div>
 
 ---
 
