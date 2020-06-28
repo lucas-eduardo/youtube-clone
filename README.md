@@ -26,6 +26,8 @@
 
 O clone da aplicação do youtube foi desenvolvimento apenas para fins de estudos e de desafio próprio.
 
+Link: https://uicloneyoutube.netlify.app/
+
 ---
 
 ## 🎨 Clone final
