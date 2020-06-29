@@ -11,4 +11,16 @@ export const Wrapper = styled.div`
     'MENU MAIN';
 
   height: 100vh;
+
+  &.openMenu {
+    grid-template-columns: 0 100vw;
+  }
+
+  @media screen and (max-width: 525px) {
+    grid-template-columns: 0 auto;
+
+    &.openMenu {
+      grid-template-columns: 100vw 0;
+    }
+  }
 `;

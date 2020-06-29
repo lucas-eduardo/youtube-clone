@@ -34,6 +34,12 @@ export const Navigation = styled.div`
     width: 80px;
     height: 24px;
   }
+
+  @media screen and (max-width: 525px) {
+    > img {
+      display: none;
+    }
+  }
 `;
 
 export const Search = styled.div`
@@ -81,6 +87,10 @@ export const Search = styled.div`
       color: var(--black20);
     }
   }
+
+  @media screen and (max-width: 525px) {
+    display: none;
+  }
 `;
 
 export const Actions = styled.div`
@@ -111,6 +121,10 @@ export const ButtonAction = styled.button`
 
   & + button {
     margin-left: 0.8rem;
+  }
+
+  @media screen and (max-width: 525px) {
+    display: none;
   }
 `;
 

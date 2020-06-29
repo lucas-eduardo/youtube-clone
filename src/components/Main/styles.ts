@@ -38,6 +38,10 @@ export const GridVideo = styled.div`
   grid-gap: 4rem 1rem;
 
   margin-top: 1.6rem;
+
+  @media screen and (max-width: 525px) {
+    align-self: center;
+  }
 `;
 
 export const ThumbVideo = styled.div``;

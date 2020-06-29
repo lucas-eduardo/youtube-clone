@@ -7,6 +7,8 @@ import {
   MdNotifications,
 } from 'react-icons/md';
 
+import { useMenu } from '../../hooks/Menu';
+
 import logo from '../../assets/logo.svg';
 
 import {
@@ -20,10 +22,12 @@ import {
 } from './styles';
 
 const Header: React.FC = () => {
+  const { clickMenu } = useMenu();
+
   return (
     <Wrapper>
       <Navigation>
-        <button type="button">
+        <button type="button" onClick={clickMenu}>
           <MdMenu />
         </button>
         <img src={logo} alt="Youtube" />

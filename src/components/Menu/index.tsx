@@ -21,11 +21,15 @@ import { GiFilmStrip } from 'react-icons/gi';
 import { IoLogoGameControllerB } from 'react-icons/io';
 import { RiRecordCircleLine } from 'react-icons/ri';
 
+import { useMenu } from '../../hooks/Menu';
+
 import { Wrapper, List, AvatarChannel, Footer, Copyright } from './styles';
 
 const Menu: React.FC = () => {
+  const { openMenu } = useMenu();
+
   return (
-    <Wrapper>
+    <Wrapper className={openMenu ? 'openMenu' : ''}>
       <List>
         <ul>
           <li className="active">

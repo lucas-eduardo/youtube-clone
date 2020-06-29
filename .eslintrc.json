@@ -24,6 +24,7 @@
   ],
   "rules": {
     "prettier/prettier": "error",
-    "react/no-unescaped-entities": "off"
+    "react/no-unescaped-entities": "off",
+    "react/prop-types": "off"
   }
 }

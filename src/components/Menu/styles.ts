@@ -26,6 +26,23 @@ export const Wrapper = styled.menu`
       background-color: transparent;
     }
   }
+
+  @media screen and (max-width: 525px) {
+    overflow-y: scroll;
+
+    &.openMenu {
+      animation: teste 1s;
+
+      @keyframes teste {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    }
+  }
 `;
 
 export const List = styled.div`
